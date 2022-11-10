@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 export const CSSReset = createGlobalStyle`
   /* Reset */
@@ -40,4 +40,19 @@ export const CSSReset = createGlobalStyle`
       opacity: .5;
     }
   }
-`
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #808080; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: gray; 
+    border-radius: 10px;
+  }
+`;

@@ -2,47 +2,48 @@
   "name": "Vinícius Boschi",
   "job": "Desenvolvedor Front end",
   "github": "Vinicius-Boschi",
+  "header": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   "playlists": {
     "jogos": [
       {
-        "title": "Frostpunk - Neve e Steak tartare",
-        "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
-        "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+        "title": "A Garagem Mais Famosa Do R6 | MD10 Vector Glare #8 - Rainbow Six Siege",
+        "url": "https://www.youtube.com/watch?v=8f4uYe6N5yU",
+        "thumb": "https://i.ytimg.com/vi/8f4uYe6N5yU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDt7_inc1KnDfWLtIxvCJ3zMk2kw"
       },
       {
-        "title": "Frostpunk - Neve e Steak tartare",
-        "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
-        "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+        "title": "Rainbow Six Siege - A melhor caveira from Brazil",
+        "url": "https://www.youtube.com/watch?v=bmNEX4a58GY",
+        "thumb": "https://i.ytimg.com/vi/bmNEX4a58GY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_7-wPbSVKyH2rR8CQUf_W5RpzXw"
       },
       {
-        "title": "Gas Station Simulator - 8 dias sem dormir!",
-        "url": "https://www.youtube.com/watch?v=R1d0DyRDG_Q",
-        "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
+        "title": "Vale a pena jogar PALADINS?",
+        "url": "https://www.youtube.com/watch?v=FW87VaAPFXU",
+        "thumb": "https://i.ytimg.com/vi/FW87VaAPFXU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC62UMcc7UEu9kxoa71QcEW7-qXOA"
       },
       {
-        "title": "Gartic Phone - Não assista a esse NerdPlayer!",
-        "url": "https://www.youtube.com/watch?v=0oJQUs5oRiM",
-        "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
+        "title": "Paladins (2021) - Gameplay (PC UHD) 4K60FPS",
+        "url": "https://www.youtube.com/watch?v=XFkiaMGxTtk",
+        "thumb": "https://i.ytimg.com/vi/XFkiaMGxTtk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpIgibCEGo0lUpRBQTRjJHqU941A"
       },
       {
-        "title": "Netdecking Estraga o Magic?",
-        "url": "https://www.youtube.com/watch?v=dXihyhYEsEc",
-        "thumb": "https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
+        "title": "Bem vindo ao culto! Far Cry 5 - Parte 1",
+        "url": "https://www.youtube.com/watch?v=BY_JreQaiKo",
+        "thumb": "https://i.ytimg.com/vi/BY_JreQaiKo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCG-VT1nljMsavdju66vH32-XAw2g"
       },
       {
-        "title": "Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent",
-        "url": "https://www.youtube.com/watch?v=zybKHMgLCWU",
-        "thumb": "https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
+        "title": "Far Cry 5 - O início da Gameplay, Dublado e Legendado em Português PT-BR!",
+        "url": "https://www.youtube.com/watch?v=hseQ1ZD5L3c",
+        "thumb": "https://i.ytimg.com/vi/hseQ1ZD5L3c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBoGXsfVk7blxgdoYWma7hsm4g8iQ"
       },
       {
-        "title": "We Were Here Together - Os Enigmas deste Mundo",
-        "url": "https://www.youtube.com/watch?v=UKgQsrHUG40",
-        "thumb": "https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
+        "title": "Alanzoka nextage jogando Overwatch 2 - #1",
+        "url": "https://www.youtube.com/watch?v=PdsOp4e394w",
+        "thumb": "https://i.ytimg.com/vi/PdsOp4e394w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-10uReYmqU7UhiXlN7gGvLwbF1A"
       },
       {
-        "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
-        "url": "https://www.youtube.com/watch?v=n3TneUb5c-w",
-        "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
+        "title": "Ele está aqui, ele é demais! - Overwatch",
+        "url": "https://www.youtube.com/watch?v=C_RX9veYXq0",
+        "thumb": "https://i.ytimg.com/vi/C_RX9veYXq0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDY4h_m_2OMpMGuSYafIJ3deUPTLg"
       }
     ],
     "front-end": [
@@ -127,6 +128,11 @@
         "title": "O que é o C#? #HipstersPontoTube",
         "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
         "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+      },
+      {
+        "title": "O que é faz uma desenvolvedora Back-end? Com Juliana Amoasei | #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=fiPfvylj6rk",
+        "thumb": "https://i.ytimg.com/vi/fiPfvylj6rk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTpL8dYV4PwLV0Q3OminyZxlRR2Q"
       }
     ]
   }

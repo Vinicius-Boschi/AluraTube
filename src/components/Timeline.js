@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
-export const StyledTimeline = styled.div`
+const StyledTimeline = styled.div`
   flex: 1;
   width: 100%;
-  padding: 16px;
+  padding: 7px;
   overflow: hidden;
 
   h2 {
@@ -41,12 +41,41 @@ export const StyledTimeline = styled.div`
         scroll-snap-align: start;
         
         span {
-          padding-top: 8px;
+          padding: 8px 24px 0 0;
+          margin-bottom: 20px;
           display: block;
-          padding-right: 24px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
       }
     }
   }
 `
+
+export default function Timeline(propriedades) {
+  const playlistNames = Object.keys(propriedades.playlists)
+
+  return (
+      <StyledTimeline>
+          {playlistNames.map((playlistName) => {
+              const videos = propriedades.playlists[playlistName]
+              return (
+                  <section>
+                      <h2>{playlistName}</h2>
+                      <div>
+                          {videos.map((video) => {
+                              return (
+                                  <a href={video.url} target="_blank">
+                                      <img src={video.thumb} />
+                                      <span>
+                                          {video.title}
+                                      </span>
+                                  </a>
+                              )
+                          })}
+                      </div>
+                  </section>
+              )
+          })}
+      </StyledTimeline>
+  )
+}
