@@ -51,31 +51,29 @@ const StyledTimeline = styled.div`
   }
 `
 
-export default function Timeline(propriedades) {
-  const playlistNames = Object.keys(propriedades.playlists)
+export default function Timeline(props) {
+  const playlistNames = Object.keys(props.playlists)
 
   return (
-      <StyledTimeline>
-          {playlistNames.map((playlistName) => {
-              const videos = propriedades.playlists[playlistName]
-              return (
-                  <section>
-                      <h2>{playlistName}</h2>
-                      <div>
-                          {videos.map((video) => {
-                              return (
-                                  <a href={video.url} target="_blank">
-                                      <img src={video.thumb} />
-                                      <span>
-                                          {video.title}
-                                      </span>
-                                  </a>
-                              )
-                          })}
-                      </div>
-                  </section>
-              )
-          })}
-      </StyledTimeline>
+    <StyledTimeline>
+        {playlistNames.map((playlistName) => {
+            const videos = props.playlists[playlistName]
+            return (
+                <section>
+                    <h2>{playlistName}</h2>
+                    <div>
+                        {videos.map((video) => {
+                            return (
+                                <a href={video.url} target="_blank">
+                                    <img src={video.thumb} />
+                                    <span>{video.title}</span>
+                                </a>
+                            )
+                        })}
+                    </div>
+                </section>
+            )
+        })}
+    </StyledTimeline>
   )
 }

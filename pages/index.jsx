@@ -2,6 +2,7 @@ import config from "../config.json"
 import Menu from "../src/components/Menu"
 import Header from "../src/components/Header"
 import Timeline from "../src/components/Timeline"
+import Favorites from "../src/components/Favorites"
 import { CSSReset } from "../src/components/CSSReset"
 
 function HomePage() {
@@ -16,9 +17,8 @@ function HomePage() {
             }}>
                 <Menu />
                 <Header />
-                <Timeline playlists={config.playlists}>
-                    Conteúdo
-                </Timeline>
+                <Timeline playlists={config.playlists} />
+                <Favorites favorites={config.favorites}/>
             </div>
         </>
     )
