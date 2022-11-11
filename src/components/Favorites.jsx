@@ -8,12 +8,12 @@ export default function Favorites(props) {
         <div>
             {allFavorites.map((favorite) => {
                 return (
-                    <section>
+                    <section key={favorite}>
                         <h2>{favorite}</h2>
                         <div>
                             {props.favorites[favorite].map((item) => {  
                                 return (
-                                    <div>
+                                    <div key={item}>
                                         <img src={`https://github.com/${config.github}.png`} alt={item.user} />
                                         <span>{ item.user}</span>
                                     </div>
