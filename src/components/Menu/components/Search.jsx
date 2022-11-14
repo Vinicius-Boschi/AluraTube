@@ -37,6 +37,10 @@ const StyledSearch = styled.div`
   button:hover {
     opacity: 1;
   }
+
+  svg {
+    color: ${({ theme }) => theme.textColorBase};
+  }
 `
 
 export default function Search({filterValue, setFilterValue}) {

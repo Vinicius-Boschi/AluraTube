@@ -2,13 +2,14 @@ import styled from "styled-components"
 import config from "../../config.json"
 
 const StyledHeader = styled.div`
+  background-color: ${({ theme }) => theme.backgroundLevel1};
+
     .banner {
       width: 100%;
       height: 250px;
     }
 
     .user-info {
-      margin-top: 50px;
       display: flex;
       align-items: center;
       width: 100%;
@@ -21,6 +22,11 @@ const StyledHeader = styled.div`
       height: 80px;
       border-radius: 50%;
     }
+
+    .user-job {
+      color: #666666;
+      margin-top: 5px;
+    }
 `
 
 export default function Header() {
@@ -31,7 +37,7 @@ export default function Header() {
         <img className="user-image" src={`https://github.com/${config.github}.png`} />
         <div>
           <h2>{config.name}</h2>
-          <p>{config.job}</p>
+          <p class="user-job">{config.job}</p>
         </div>
       </section>
     </StyledHeader>
