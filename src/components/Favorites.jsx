@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const StyledFavorites = styled.div`
     section {
         width: 100%;
-        padding: 0;
         padding: 16px;
     }
 
@@ -14,9 +13,19 @@ const StyledFavorites = styled.div`
         text-transform: capitalize;
     }
 
+    .infos {
+        width: calc(100vw - 16px * 4);
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
     .info-user {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     img {
@@ -37,15 +46,15 @@ export default function Favorites(props) {
         <div>
             {allFavorites.map((favorite) => {
                 return (
-                    <StyledFavorites key={favorite}>
+                    <StyledFavorites key={ favorite }>
                         <section>
-                            <h2>{favorite}</h2>
-                            <div>
-                                {props.favorites[favorite].map((item) => {  
+                            <h2>AluraTubes Favoritos</h2>
+                            <div className="infos">
+                                { props.favorites[favorite].map((item) => {  
                                     return (
-                                        <div key={item} className="info-user">
-                                            <img src={`https://github.com/${config.github}.png`} alt={item.user} />
-                                            <span>{ item.user}</span>
+                                        <div key={ item } className="info-user">
+                                            <img src={`https://github.com/${item.user}.png` } alt={ item.user } />
+                                            <span>{ '@' + item.user }</span>
                                         </div>
                                     )
                                 })}

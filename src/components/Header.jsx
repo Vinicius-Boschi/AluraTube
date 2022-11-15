@@ -37,7 +37,7 @@ export default function Header() {
         <img className="user-image" src={`https://github.com/${config.github}.png`} />
         <div>
           <h2>{config.name}</h2>
-          <p class="user-job">{config.job}</p>
+          <p className="user-job">{config.job}</p>
         </div>
       </section>
     </StyledHeader>
