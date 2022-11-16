@@ -1,7 +1,3 @@
-<div align=center>
-  <img src="https://user-images.githubusercontent.com/74377158/197866871-6c2d8d30-8043-4c80-881c-7ea9c7e7183c.png" width=200>
-</div>
-  
 <h3> :dart: Objetivos do site</h3>
 Projeto da Imersão React da Alura pra aprender como utilizar o React com styled components e nextjs, além de salvar as informações do projeto no supabase. 
   
