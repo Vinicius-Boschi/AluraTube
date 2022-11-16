@@ -17,8 +17,6 @@ export const StyledFavorites = styled.div`
     display: flex;
     flex-direction: row;
     gap: 20px;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
   }
 
   .info-user {
